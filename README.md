@@ -1,2 +1,2 @@
-# planning_models
- Repository for completing assignments on the Suunnittelumallit course.
+# Model Designing
+Repository for completing assignments on the Suunnittelumallit course.
