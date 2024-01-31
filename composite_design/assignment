@@ -1,0 +1,30 @@
+Suunnittele Composite-mallin mukaisesti
+rajapinnat ja toteutukset systeemille,
+jolla voit esittää
+pöytätietokoneen kokoonpanon
+ja laskea sen hinnan,
+kun kukin komponentti tietää oman hintansa.
+
+Idea on että
+tietokoneen kaikki osat ovat vaikkapa
+Laiteosa-rajapinnan toteuttajia.
+Laiteosalla on hinta.
+
+Laiteosia on erilaisia, esim:
+- muistipiiri (ram) - 35
+- emolevy (motherboard) - 75
+- muistilevy - 50
+- prosessori - 105
+- verkkokortti (network interface card) - 115
+- näytönohjain (graphics card) - 150
+- kotelo (case) - 45
+- virtalähde - 60
+
+Näistä ainakin
+emolevy ja kotelo ovat koostekomponentteja.
+Näiden hinta muodostuu
+    komponentin omasta hinnasta
+    sekä mahdollisen sisällön eli liitettyjen komponenttien hinnasta.
+
+Rakenna pöytätietokonekokoonpano haluamistasi osista ja laske lopuksi kokoonpanon hinta ja tulosta se.
+Hinnan ilmoittava metodi palauttaa hinnan metodin paluuarvona.

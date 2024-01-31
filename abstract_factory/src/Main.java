@@ -6,5 +6,7 @@ public class Main {
         AbstractClothingFactory bossClothingFactory = new BossClothingFactory();
         bossClothingFactory.pue();
         bossClothingFactory.luettele();
+
+        System.out.println(MathPolynomial.polynomial(3, 2, 2));
     }
 }
