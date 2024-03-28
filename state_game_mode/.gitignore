@@ -3,7 +3,6 @@ out/
 !**/src/main/**/out/
 !**/src/test/**/out/
 /.idea
-state_game_mode.iml
 
 ### Eclipse ###
 .apt_generated
