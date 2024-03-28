@@ -23,6 +23,7 @@ public class Main {
 
         storage.lisaaOsa(storage);
         cpu.lisaaOsa(gpu);
+        ram.lisaaOsa(storage);
 
         System.out.printf("CPU: %s$, GPU: %s$\n", cpu.annaHinta(), gpu.annaHinta());
         System.out.println("Emolevyn hinta liitettyine komponenttineen: " + motherboard.annaHinta() + "$");

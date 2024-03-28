@@ -15,6 +15,7 @@ public class Muistipiiri implements LaiteOsaIF {
 
     @Override
     public void lisaaOsa(LaiteOsaIF osa) {
+        //throw new RuntimeException("Cannot add a part to a memory component...");
         System.err.println("Cannot add a part to a memory component...");
     }
 }
